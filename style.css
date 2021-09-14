@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;  
+    background-color: linen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: inset;
+    border-color: darkorange;
+    border-width: 6px;
+    
+    
+}
+
+#mensagem{
+    margin: 0.625rem auto 0.625rem auto;
+    text-align: center;
+    margin-top: 25rem;
+    position: fixed;
+    font-size: 40px;
+    text-shadow:2px 4px 7px #fff ;
+    font-weight: bolder;
+    
+}
+#mensagem2{
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    font-size: 35px;
+    color: darkorange;
+ 
+    text-shadow: 1px 3px 5px #000;
+    font-weight: bolder;
+}
+
+footer{
+    margin-top:40rem ;
+    margin-right: 2rem;
+    
+}
+
