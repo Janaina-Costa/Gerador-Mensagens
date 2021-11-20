@@ -38,16 +38,16 @@ const sauda = document.getElementById('mensagem2')
 if((hora >= 0) && (hora <= 11)){
     elMensagem.innerHTML = selecionaMensagem()
     sauda.textContent = 'Bom dia'+`\u{2600}`
-    document.body.style.backgroundImage = 'URL(morning.jpg)'
+    document.body.style.backgroundImage = 'URL(./img/morning.jpg)'
 }else if((hora >= 12) && (hora < 18)){
     elMensagem.innerHTML = selecionaMensagem()
     sauda.textContent = 'Boa Tarde'+`\u{26C5}`
-    document.body.style.backgroundImage = 'URL(afternoon.jpg)'
+    document.body.style.backgroundImage = ' URL(./img/afternoon.jpg)'
     sayToMe.style.color=''
 }else if((hora >=18) && (hora <= 23)){
     elMensagem.innerHTML = selecionaMensagem()
     sauda.textContent = 'Boa noite'+`\u{1F319}`
-    document.body.style.backgroundImage = 'URL(night.jpg)'
+    document.body.style.backgroundImage = 'URL(./img/night.jpg)'
     sayToMe.style.color='#fff'
     
     
